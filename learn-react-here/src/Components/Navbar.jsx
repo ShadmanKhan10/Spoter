@@ -32,9 +32,9 @@ export default function Navbar() {
         </div>
         <div className="menu-lists">
           <div className="menu">Home</div>
-          <div className="menu">AboutUs</div>
-          <div className="menu">Items</div>
-          <div className="menu">Services</div>
+          <div className="menu">About</div>
+          <div className="menu">Games</div>
+          <div className="menu">Location</div>
           <div onClick={onLoginClick} className="menu">
             Login
           </div>
@@ -52,9 +52,9 @@ export default function Navbar() {
       {clicked ? (
         <div className="ham-menu-list">
           <div className="ham-menu">Home</div>
-          <div className="ham-menu">AboutUs</div>
-          <div className="ham-menu">Services</div>
-          <div className="ham-menu">Items</div>
+          <div className="ham-menu">About</div>
+          <div className="ham-menu">Games</div>
+          <div className="ham-menu">Location</div>
           <div onClick={onLoginClick} className="ham-menu">
             Login
           </div>
